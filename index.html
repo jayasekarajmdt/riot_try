@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      Basic Page Needs
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <meta charset="utf-8" />
+    <title>riot_prac</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!--
+      Mobile Specific Metas
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      FONT
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--
+      CSS
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <script src="js\riot+compiler.min.js"></script>
+    <script src="js\Results.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <main_logo></main_logo>
+
+      <input_field></input_field><br />
+      <func_buttons></func_buttons>
+      <script src="tags\main_logo.tag" type="riot/tag"></script>
+      <script src="tags\func_buttons.tag" type="riot/tag"></script>
+      <script src="tags\input_field.tag" type="riot/tag"></script>
+      <script>
+        riot.mount("*");
+      </script>
+    </div>
+  </body>
+</html>
