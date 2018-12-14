@@ -26,10 +26,7 @@
       type="text/css"
     />
 
-    <!--
-      CSS
-      ––––––––––––––––––––––––––––––––––––––––––––––––––
-    -->
+    <!-- CSS–––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
     <script src="js\riot+compiler.min.js"></script>
@@ -40,10 +37,15 @@
       <main_logo></main_logo>
 
       <input_field></input_field><br />
-      <func_buttons></func_buttons>
+      <func_buttons></func_buttons> <resData></resData>
+
+      <!-- Mixin–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="mixin\data.js"></script>
+      <!-- Tags–––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <script src="tags\main_logo.tag" type="riot/tag"></script>
       <script src="tags\func_buttons.tag" type="riot/tag"></script>
       <script src="tags\input_field.tag" type="riot/tag"></script>
+      <script src="tags\resData.tag" type="riot/tag"></script>
       <script>
         riot.mount("*");
       </script>

@@ -21,6 +21,11 @@
 
             <h1>Result: {sum}</h1>
 
+            <div class="row">
+            <button style={{width:"100%"}} onclick={loadData}><h5>Load Data</h5></button>
+            </div>
+
+
 
         </div>
     </virtual>
@@ -57,6 +62,13 @@
     this.clear=(e)=>{
         e.preventDefault();
         window.location.reload();
+
+    }
+
+    this.loadData=(e)=>{
+        e.preventDefault();
+        console.log("Button Clicked")
+        this.backendConnect("connect")
 
     }
 

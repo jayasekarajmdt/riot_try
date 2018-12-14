@@ -2,10 +2,10 @@
 
 <div class=input_fields>
     <div class="container">
-        <div class="row">
-            <div class="one-half column"><input ref="input_1" name="input_1" type="text"  oninput={getValue} placeholder={input1}> </div>
-            <div class="one-half column"><input ref="input_2" name="input_2" type="text" oninput={getValue} placeholder={input2}> </div>
-        </div>
+        
+            <input class="six columns" ref="input_1" name="input_1" type="text" oninput={getValue} placeholder={input1}> 
+            <input class="six columns"ref="input_2" name="input_2" type="text" oninput={getValue} placeholder={input2}> 
+        
     </div>
 </div>
 
